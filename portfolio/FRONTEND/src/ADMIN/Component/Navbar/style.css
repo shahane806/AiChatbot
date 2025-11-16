@@ -1,0 +1,100 @@
+.navbar_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 19px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px -5px;
+    min-height: 20%;
+    max-height: 20vh;
+    
+  }
+  .nav-links{
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      display: flex;
+  }
+  .navbar_main_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    margin: 10px auto;
+    min-width: 80%;
+  }
+  
+  .navbar_main_li > li {
+    margin: auto 10px;
+    padding: auto;
+    cursor: pointer;
+  }
+  .navbar_main_li>li>p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar_main_li>li>p>span{
+    margin: 0 5px;
+  }
+  .navbar_main_li > li > p:hover {
+    color: rgb(43, 57, 112);
+    font-weight: bold;
+  }
+  .navbar_main_logo {
+    display: flex;
+    justify-content: left;
+    min-width: 20%;
+    cursor: pointer;
+  }
+  
+  @media only screen and ((min-width:460px) and (max-width :900px)) {
+    .navbar_main_logo_img1 {
+      display: none;
+    }
+    .navbar_main_logo_img2{
+      display: flex !important;
+    }
+    .navbar_main_li{
+      display: none;
+    }
+    .navbar_main_hamburger{
+      display: flex !important;
+      
+    }
+  }
+  @media only screen and ((min-width: 0px) and (max-width : 460px)) {
+    .navbar_main_logo_img1 {
+      display: none;
+    }
+    .navbar_main_logo_img2{
+      display: flex !important;
+    }
+    .navbar_main_li{
+      display: none;
+    }
+    .navbar_main_hamburger{
+      display: flex !important;
+      
+    }
+  }
+
+  .navbar_main_li_admin>li>p{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+    max-width: 250px;
+    min-width: 250px;
+    justify-content: space-between;
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 10px;
+  }
+  .admin-dashboard-component2-dashboard-navbar{
+    justify-content: center;
+  }

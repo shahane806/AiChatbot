@@ -1,0 +1,82 @@
+/* Modal Container */
+.error-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    animation: slideDown 0.3s ease-out;
+  }
+  
+  /* Fade-In Animation */
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -60%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  /* Modal Header */
+  .error-modal-header {
+    background-color: #e74c3c;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Modal Body */
+  .error-modal-body {
+    padding: 20px;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Modal Footer */
+  .error-modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Close Button */
+  .error-modal-close {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .error-modal-close:hover {
+    background-color: #e74c3c;
+  }
+  
+  /* Overlay */
+  .error-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  

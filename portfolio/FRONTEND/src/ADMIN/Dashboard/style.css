@@ -1,0 +1,74 @@
+.admin-dashboard{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100vh;
+    min-height: 100vh;
+    
+}
+.admin-dashboard-component1-sidemenu{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 208, 208);
+   
+}
+.admin-dashboard-component2-dashboard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 208, 208);
+    max-width: 85%;
+    min-width: 85%;
+    
+}
+.admin-dashboard-component2-dashboard-components{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.admin-dashboard-component2-dashboard-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 208, 208);
+    border-top: 1px solid rgb(209, 208, 208);
+    border-right: 1px solid rgb(209, 208, 208);
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15%;
+    max-height: 15%;
+}
+.admin-dashboard-sidemenu-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    width: 82%;
+    padding: 20px;
+    height: 11vh;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+.admin-dashboard-sidemenu-options{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 95vh;
+
+}
+.admin-dashboard-sidemenu-options>li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top:30px;
+    /* border: 1px solid; */
+    width: 90%;
+    cursor: pointer;
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: start;
+}
+.admin-dashboard-sidemenu-options>li:hover{
+    background-color: rgb(232, 230, 230);
+}
+

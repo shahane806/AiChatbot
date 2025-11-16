@@ -1,0 +1,110 @@
+.Chatbot-Component{
+    margin-top: -10px;
+}
+.MinHeight100VH{
+    min-height: 100vh;
+}
+.disflex{
+    display: flex;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+.flex-d-col{
+    flex-direction: column;
+}
+.align-item-start{
+    align-items: start;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.marginLeft_10px{
+    margin-left: 10px;
+}
+.marginTop_10px{
+    margin-top: 10px;
+}
+.marginAuto{
+    margin: auto;
+}
+.border_1px_solid_shd{
+    border: 1px solid rgb(225, 225, 226);
+}
+.border_1px_solid_shd:hover{
+    background-color: rgb(159, 155, 155);
+    color: rgb(243, 242, 242);
+    cursor: pointer;
+}
+.padding_10px{
+    padding: 10px;
+}
+.borderRadius_5px{
+    border-radius: 5px;
+}
+.spanHeading{
+    width: fit-content;
+}
+.fontSize_30px{
+    font-size: 30px;
+}
+.width_100percent{
+width: 100%;
+}
+.width_95percent{
+    width: 95%;
+}
+.bd{
+    border:1px solid red;
+}
+
+.textAlignStart{
+    text-align: start;
+}
+.textAlignEnd{
+    text-align: end;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(201, 201, 201);
+    height: fit-content;
+    min-width: 95%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.inputText{
+    padding: 10px;
+    margin:10px auto;
+    border: 1px solid  rgb(202, 220, 228);
+    border-radius: 3px;
+    width: 95%;
+}
+.uploadBtn{
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgb(237, 236, 236);
+    background-color: rgb(89, 117, 129);
+    color: white;
+    cursor: pointer;
+}
+.uploadBtn:hover{
+    border: 1px solid  rgb(89, 117, 129);
+    background-color: white;
+    color:  rgb(89, 117, 129);
+}
+.overflowYScroll{
+    overflow-y: scroll;
+}

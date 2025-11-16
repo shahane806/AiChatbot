@@ -1,0 +1,111 @@
+.login_form_main {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid red; */
+  max-width: 80%;
+  min-width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+.login_form_main > img {
+  max-width: 300px;
+}
+.login_form_main > h1 {
+  color: rgb(66, 65, 65);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  min-width: 80%;
+  /* border: 1px solid rgb(0, 0, 255); */
+}
+.login_form > input {
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  min-width: 25%;
+  max-width: 50%;
+  border-radius: 5px;
+  border: 2px solid rgb(202, 200, 200);
+}
+.login_form > input:focus-visible {
+  border: none;
+  box-shadow: 0px 0px 10px -2px #397fdd;
+  outline: none;
+  color: #397fdd;
+  padding-left: 10px;
+  font-size: medium;
+}
+.submit_btn {
+  background-color: #397fdd;
+  color: rgb(243, 240, 240);
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  font-size: medium;
+}
+.submit_btn:hover {
+  box-shadow: 0px 0px 10px -2px #397fdd;
+}
+.submit_btn:active {
+  background-color: rgb(244, 243, 243);
+  color: #397fdd;
+  box-shadow: 0px 0px 10px -2px rgb(244, 243, 243);
+}
+
+.login_form > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 25%;
+  max-width: 25%;
+  text-align: center;
+  margin: auto;
+  color: rgb(119, 117, 117);
+}
+.login_form > div > hr {
+  color: #397fdd;
+  min-width: 25%;
+  max-width: 50%;
+  margin: auto;
+}
+.show_signup_form{
+    color: #397fdd;
+    cursor: pointer;
+}
+.google_login_btn{
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 50%;
+    min-width: 20%;
+    padding: 10px;
+    border: 2px solid rgb(202, 200, 200);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+
+}
+.google_login_btn:hover{
+    background-color: rgb(253, 252, 252);
+    box-shadow: 0px 0px 10px -2px #397fdd;
+}
+.google_login_btn:active{
+    background-color:  #397fdd;
+    box-shadow: 0px 0px 10px -2px rgb(253, 252, 252);
+    color: white;
+}
+.login_form_footer{
+    color: #397fdd;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+1. ICON :--->  src/Assets/ChatbotIcons/icon.png
+2. CHATBOTUI :---> Components/ChatBotUi/chatbotUi.jsx
+
+3. inside the AllApps--->IconRender  import Icon.png and add to icons Object as "ChatBotName : Icon"
+
+
+login in Admin Pannel 
+
+4. CreateNewChatbot
+
+    Add this details
+
+    IconURl : example :  "../../Assets/ChatbotIcons/TSI.png"
+    ChatBotName : example : "TSI"
+    BackendUrl : example : "http://127.0.0.1:8000/"
+    FrontendUrl : example : "../ChatBotUI/TSI"
+
+
+after this in the ai/chatbot/chatbot/views.py
+
+5. write your logic for ml model and send back response to the user 
+
+Done.
+
+***HappyHacking***

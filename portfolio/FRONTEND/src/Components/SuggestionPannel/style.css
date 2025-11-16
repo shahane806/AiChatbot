@@ -1,0 +1,27 @@
+.suggestion_pannel{
+    bottom: 85px;
+    left:43%;
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and ((min-width: 320px) and (max-width : 900px)) {
+    .suggestion_pannel{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        left: 4%;
+        bottom: 103%;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 0px 0px 10px -2px #397fdd;
+        justify-content: space-around;
+        min-width: 90%;
+        background-color: white;
+        max-height: -moz-fit-content;
+        max-height: fit-content;
+        min-height: 5%;
+       }
+       .suggestion_btn_down{
+        display: flex !important;
+    }
+}

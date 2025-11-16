@@ -1,0 +1,58 @@
+@media only screen and ((min-width: 325px) and (max-width :  900px)) {
+  .side_menu {
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    z-index: 10;
+    min-height: 75vh;
+    max-height: 75vh;
+    min-width: 0%;
+    max-width: 0%;
+    animation-name: slide_forward;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color:  rgb(237, 237, 241);
+    animation-iteration-count: 1;
+  }
+  @keyframes slide_forward {
+    from {
+      min-width: 0%;
+    }
+    to {
+      min-width: 70%;
+      background-color: rgb(237, 237, 241);
+      box-sizing: border-box;
+      box-shadow: 4px 1px 10px -8px;
+    }
+  }
+
+  .side_menu_items_li {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    list-style: none;
+    margin: 20px auto;
+    min-width: 80%;
+  }
+   .breakline{
+     color: rgb(116, 115, 115);
+   }
+  .side_menu_items_li > li {
+    margin: 5px 10px;
+    padding: auto;
+    cursor: pointer;
+  }
+  .side_menu_items_li > li > p {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+  }
+  .side_menu_items_li > li > p > span {
+    margin: 0 15px;
+  }
+  .side_menu_items_li > li > p:hover {
+    color: rgb(43, 57, 112);
+    font-weight: bold;
+  }
+}
