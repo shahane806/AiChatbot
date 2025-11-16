@@ -142,11 +142,16 @@ npm run start
 ## 📸 Screenshots
 
 ***HappyHacking***
+<p> 
+<center>
+  
 <img  width="22%" alt="image" src="https://github.com/user-attachments/assets/72ce5bea-c48b-4f10-b939-968d5204fb43" />
 <img  width="22%" alt="image" src="https://github.com/user-attachments/assets/d381ac25-0284-4637-8abf-35b83e2f9db0" />
 <img width="22%"  alt="image" src="https://github.com/user-attachments/assets/c7f9aaef-5548-4117-b842-a3148513d262" />
-
 <img  width="22%"  alt="image" src="https://github.com/user-attachments/assets/dce22894-9b44-41de-8af0-166f96cdec58" />
+</center>
+
+</p>
 
 
 ---
