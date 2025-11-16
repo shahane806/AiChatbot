@@ -1,4 +1,9 @@
 
+frontend : npm run start
+backend  : npm run start
+ai : npm run PoweredAi
+django : python manage.py runserver 8000
+
 ### **Project:** AI Chatbot (Mega Project 2025)
 
 **Description:**
