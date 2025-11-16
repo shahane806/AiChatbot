@@ -142,41 +142,11 @@ npm run start
 ## 📸 Screenshots
 
 ***HappyHacking***
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8cc8e6d6-95e0-4be5-a128-ce9a899914b6" width="22%">
-  <img src="https://github.com/user-attachments/assets/9daac0a0-4156-40db-96bd-bc7163af0dda" width="22%">
-  <img src="https://github.com/user-attachments/assets/0b99bcf9-fd92-4409-8f93-a7be7a368bac" width="22%">
-  <img src="https://github.com/user-attachments/assets/73a79c4f-56a4-413c-854d-dea11e8f33e2" width="22%">
-  <img src="https://github.com/user-attachments/assets/06746d4a-6308-4980-821e-86b322bdea35" width="22%">
-  <img src="https://github.com/user-attachments/assets/a2f3ef72-96e5-4586-8f39-53efd7d21916" width="22%">
-  <img src="https://github.com/user-attachments/assets/4468cc40-1746-4832-a633-71d9dee9b14d" width="22%">
-  <img src="https://github.com/user-attachments/assets/f294cec8-5e59-45df-ba71-eceea0c92903" width="22%">
-  <img src="https://github.com/user-attachments/assets/140d6360-002a-4acf-aa77-f0589de7b33d" width="22%">
-  <img src="https://github.com/user-attachments/assets/f2d1a252-9695-4dfe-9bb0-2aded8b8b931" width="22%">
-  <img src="https://github.com/user-attachments/assets/5aee4cae-9fb7-4fdb-bc7d-15c8088454e0" width="22%">
-  <img src="https://github.com/user-attachments/assets/9adb56a6-a4c4-4cc6-b8be-36b595ca2ab3" width="22%">
-  <img src="https://github.com/user-attachments/assets/96519030-ba25-4f4a-b97e-20d18bfef629" width="22%">
-  <img src="https://github.com/user-attachments/assets/78719dd2-6610-4d89-a2ec-72d48fbe8bae" width="22%">
-  <img src="https://github.com/user-attachments/assets/9ba478cc-48c3-4b04-8396-a199c3f1e499" width="22%">
-  <img src="https://github.com/user-attachments/assets/43317e31-ff9c-44a5-9ae6-f2cedc9b732e" width="22%">
-  <img src="https://github.com/user-attachments/assets/277396ff-b37d-484f-8fa3-cc0904d180d1" width="22%">
-  <img src="https://github.com/user-attachments/assets/e421b352-8a9f-4c6b-b805-e15db736ac85" width="22%">
-  <img src="https://github.com/user-attachments/assets/6de63c2b-9514-4c4d-a63f-690aead7bd21" width="22%">
-  <img src="https://github.com/user-attachments/assets/26f0be15-f52e-4927-9b4f-86595edcbf7d" width="22%">
-  <img src="https://github.com/user-attachments/assets/ea7eff8b-c14d-49de-9e9f-ba560a20fd2f" width="22%">
-  <img src="https://github.com/user-attachments/assets/40192ef1-59a4-4d3a-b3a4-fab1b356a4bb" width="22%">
-  <img src="https://github.com/user-attachments/assets/6e030921-8745-4822-a072-0b81ca62a6db" width="22%">
-  <img src="https://github.com/user-attachments/assets/e17563bf-74d6-4ede-9a96-1d0d3a53ac72" width="22%">
-  <img src="https://github.com/user-attachments/assets/15b211e2-0aa3-473b-82d0-bf566d575530" width="22%">
-  <img src="https://github.com/user-attachments/assets/fa2f9239-efa2-4fb4-b13d-9cbf3aaff9e9" width="22%">
-  <img src="https://github.com/user-attachments/assets/50693bf7-a03e-491a-aabc-3a010f9743b7" width="22%">
-  <img src="https://github.com/user-attachments/assets/4b75c3cd-5b7f-4e63-b8cc-745aea0e22cd" width="22%">
-  <img src="https://github.com/user-attachments/assets/efeab750-b53e-4ff1-a4b4-a0bd7b759ccb" width="22%">
-  <img src="https://github.com/user-attachments/assets/9f5df274-a72a-4cf7-8da2-bbfa5cb090a1" width="22%">
-  <img src="https://github.com/user-attachments/assets/c4f6aaf7-3e8c-47b9-b880-4c4f62900ec6" width="22%">
-  <img src="https://github.com/user-attachments/assets/2a9d1d74-1c08-40cb-a460-4860f756a61c" width="22%">
-  <img src="https://github.com/user-attachments/assets/f6a1c7a3-b83c-46bd-b86a-ba459a509d46" width="22%">
-</p>
+<img  width="22%" alt="image" src="https://github.com/user-attachments/assets/72ce5bea-c48b-4f10-b939-968d5204fb43" />
+<img  width="22%" alt="image" src="https://github.com/user-attachments/assets/d381ac25-0284-4637-8abf-35b83e2f9db0" />
+<img width="22%"  alt="image" src="https://github.com/user-attachments/assets/c7f9aaef-5548-4117-b842-a3148513d262" />
+
+<img  width="22%"  alt="image" src="https://github.com/user-attachments/assets/dce22894-9b44-41de-8af0-166f96cdec58" />
 
 
 ---
