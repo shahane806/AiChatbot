@@ -7,7 +7,7 @@ export const chatbot_reducer = (state=[],action)=>{
         
         }
         case "deleteChatbot":{
-            let newState = state?.filter((e)=>{return e?._id != action?.payload})
+            let newState = state?.filter((e)=>{return e?._id !== action?.payload})
             state = newState
             return state
         }
