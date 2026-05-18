@@ -4,6 +4,7 @@ const env = require("dotenv");
 env.config();
 
 const Router = require("./Router/router");
+const limiter = require("express-rate-limit")
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 8001;
 const { createServer } = require("http");
@@ -15,7 +16,11 @@ const fileUpload = require("express-fileupload");
 const SocketAuthCheck = require("./Middlewere/SocketAuthCheck");
 
 const app = express();
-
+const rateLimit = limiter({
+  windowMs : 1*60*1000,
+  max : 5,
+  message : "api rate limit exceed"
+})
 app.use(cors());
 app.use(express.json());
 app.use(Router);

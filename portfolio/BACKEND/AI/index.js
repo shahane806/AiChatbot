@@ -5,9 +5,25 @@ const cors = require("cors");
 const http = require("http");
 const app = express();
 const socketIoClient = require("socket.io-client");
+const helmet = require('helmet')
+const rateLimit = require("express-rate-limit")
+
 const server = http.createServer(app);
 app.use(cors());
 app.use(express.json());
+app.use(helmet());
+
+const limiter = rateLimit({
+  windowMs : 1*60*1000,
+  max:5,
+  message : "api rate limit exceed"
+})
+app.use(limiter);
+app.use(
+  express.urlencoded({
+    extended: false,
+  })
+);
 const socket = socketIoClient(process.env.SERVER_BASE_URL, {
   auth: {
     _id: process.env.AI_TOKEN,
