@@ -128,8 +128,8 @@ def sendResponse(request):
 
         else:
             # Invalid 'name' parameter
-            return JsonResponse({'error': "Invalid 'name' parameter. Use 'TSI' or 'DigitRecog'."}, status=400)
+            return JsonResponse({'prediction': "Invalid 'name' parameter. Use 'TSI' or 'DigitRecog'."}, status=400)
 
     except Exception as e:
         # Catch any unexpected errors
-        return JsonResponse({'error': f"An unexpected error occurred: {e}"}, status=500)
+        return JsonResponse({'prediction': f"Amm Something went wrong, please check if you are selected correct model or not.Please check the internet or try it later."}, status=200)
