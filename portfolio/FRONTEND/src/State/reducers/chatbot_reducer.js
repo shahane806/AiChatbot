@@ -11,9 +11,7 @@ export const chatbot_reducer = (state=[],action)=>{
             state = newState
             return state
         }
-        case "updateChatbot":{
-            
-        }break;
+        
         case "viewAllChatbots":{
             return state
         }
